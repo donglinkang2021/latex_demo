@@ -1,0 +1,40 @@
+\documentclass{article}
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+% 设置代码块样式
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{mygray},
+    basicstyle=\footnotesize\ttfamily,
+    breaklines=true,
+    captionpos=b,
+    commentstyle=\color{green},
+    keywordstyle=\color{blue},
+    numberstyle=\tiny\color{gray},
+    numbers=left,
+    numbersep=5pt,
+    frame=single,
+    framexleftmargin=5mm,
+    xleftmargin=5mm,
+    language=Python, % 设置代码块的语言（可以根据需要更改）
+}
+
+\definecolor{mygray}{RGB}{240,240,240}
+
+
+\begin{document}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus arcu vitae justo blandit, a volutpat nisi laoreet. Nullam eu rutrum enim.
+
+\begin{lstlisting}[style=mystyle, caption=Example code in Python, label=lst:python]
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+\end{lstlisting}
+
+Nulla facilisi. Nunc bibendum dolor in odio lobortis, id pharetra odio eleifend.
+
+\end{document}

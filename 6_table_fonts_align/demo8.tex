@@ -1,0 +1,73 @@
+\documentclass{article}
+\usepackage{ctex}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{lipsum}
+\usepackage[backref]{hyperref}
+
+\title{Fonts and Mathbb, Mathrm, Mathfrak, Mathcal}
+\author{Dong Linkang}
+\date{\today}
+
+\begin{document}
+    \maketitle
+
+    \tableofcontents
+
+    \section{Default font}
+    \subsection{\textit{italic}}
+    \textit{\lipsum[1]} 
+    \subsection{\textbf{bold}}
+    \textbf{\lipsum[1]}
+    \subsection{\textsl{slanted}}
+    \textsl{\lipsum[1]}
+    \subsection{\textsc{Small Capitals}}
+    \textsc{\lipsum[1]}
+    \subsection{\texttt{typewriter}}
+    \texttt{\lipsum[1]}
+    \subsection{\textsf{sans-serif}}
+    \textsf{\lipsum[1]}
+    \subsection{\uppercase{CAPITALS}}
+    \uppercase{\lipsum[1]}
+    \subsection{\textnormal{normal}}
+    \textnormal{\lipsum[1]}
+    \subsection{\textup{upright}}
+    \textup{\lipsum[1]}
+
+    \section{Mathbb, Mathrm, Mathfrak, Mathcal}
+    \begin{table}[htbp]
+        \centering
+        \begin{tabular}{@{}ccccc@{}}
+        \toprule
+        mathbb & mathrm & mathfrak & mathcal &  \\ \midrule
+        \( \mathbb{A} \) & \( \mathrm{A} \) & \( \mathfrak{A} \) & \( \mathcal{A} \) &  \\
+        \( \mathbb{B} \) & \( \mathrm{B} \) & \( \mathfrak{B} \) & \( \mathcal{B} \) &  \\
+        \( \mathbb{C} \) & \( \mathrm{C} \) & \( \mathfrak{C} \) & \( \mathcal{C} \) &  \\
+        \( \mathbb{D} \) & \( \mathrm{D} \) & \( \mathfrak{D} \) & \( \mathcal{D} \) &  \\
+        \( \mathbb{E} \) & \( \mathrm{E} \) & \( \mathfrak{E} \) & \( \mathcal{E} \) &  \\
+        \( \mathbb{F} \) & \( \mathrm{F} \) & \( \mathfrak{F} \) & \( \mathcal{F} \) &  \\
+        \( \mathbb{G} \) & \( \mathrm{G} \) & \( \mathfrak{G} \) & \( \mathcal{G} \) &  \\
+        \( \mathbb{H} \) & \( \mathrm{H} \) & \( \mathfrak{H} \) & \( \mathcal{H} \) &  \\
+        \( \mathbb{I} \) & \( \mathrm{I} \) & \( \mathfrak{I} \) & \( \mathcal{I} \) &  \\
+        \( \mathbb{J} \) & \( \mathrm{J} \) & \( \mathfrak{J} \) & \( \mathcal{J} \) &  \\
+        \( \mathbb{K} \) & \( \mathrm{K} \) & \( \mathfrak{K} \) & \( \mathcal{K} \) &  \\
+        \( \mathbb{L} \) & \( \mathrm{L} \) & \( \mathfrak{L} \) & \( \mathcal{L} \) &  \\
+        \( \mathbb{M} \) & \( \mathrm{M} \) & \( \mathfrak{M} \) & \( \mathcal{M} \) &  \\
+        \( \mathbb{N} \) & \( \mathrm{N} \) & \( \mathfrak{N} \) & \( \mathcal{N} \) &  \\
+        \( \mathbb{O} \) & \( \mathrm{O} \) & \( \mathfrak{O} \) & \( \mathcal{O} \) &  \\
+        \( \mathbb{P} \) & \( \mathrm{P} \) & \( \mathfrak{P} \) & \( \mathcal{P} \) &  \\
+        \( \mathbb{Q} \) & \( \mathrm{Q} \) & \( \mathfrak{Q} \) & \( \mathcal{Q} \) &  \\
+        \( \mathbb{R} \) & \( \mathrm{R} \) & \( \mathfrak{R} \) & \( \mathcal{R} \) &  \\
+        \( \mathbb{S} \) & \( \mathrm{S} \) & \( \mathfrak{S} \) & \( \mathcal{S} \) &  \\
+        \( \mathbb{T} \) & \( \mathrm{T} \) & \( \mathfrak{T} \) & \( \mathcal{T} \) &  \\
+        \( \mathbb{U} \) & \( \mathrm{U} \) & \( \mathfrak{U} \) & \( \mathcal{U} \) &  \\
+        \( \mathbb{V} \) & \( \mathrm{V} \) & \( \mathfrak{V} \) & \( \mathcal{V} \) &  \\
+        \( \mathbb{W} \) & \( \mathrm{W} \) & \( \mathfrak{W} \) & \( \mathcal{W} \) &  \\
+        \( \mathbb{X} \) & \( \mathrm{X} \) & \( \mathfrak{X} \) & \( \mathcal{X} \) &  \\
+        \( \mathbb{Y} \) & \( \mathrm{Y} \) & \( \mathfrak{Y} \) & \( \mathcal{Y} \) &  \\
+        \( \mathbb{Z} \) & \( \mathrm{Z} \) & \( \mathfrak{Z} \) & \( \mathcal{Z} \) &  \\ \bottomrule
+        \end{tabular}
+    \end{table}
+
+\end{document}

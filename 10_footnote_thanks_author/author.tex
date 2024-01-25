@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{lipsum}
+
+
+\title{
+    \textbf{Title} \\ 
+    \large Subtitle
+}
+\author{
+    Author1\footnotemark[1],
+    Author2\footnotemark[1], %对应同一个脚注符号
+    Author3\footnotemark[2], %\Envelope
+    Author4, 
+    Author5\footnotemark[2], %\Envelope
+}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}} %将脚注符号设置为fnsymbol类型，即特殊符号表示
+
+\begin{document}
+    
+    \maketitle    
+
+    
+
+    \begin{abstract}
+        \lipsum[1-2]
+    \end{abstract}
+
+    \footnotetext[1]{These authors contributed equally to this work.} %对应脚注[1]
+    \footnotetext[2]{Corresponding authors.} %对应脚注[2]
+
+\end{document}

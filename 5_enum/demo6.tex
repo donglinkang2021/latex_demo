@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage{enumitem}
+\usepackage{lipsum}
+
+\begin{document}
+    \paragraph{Style 0}
+    \begin{enumerate}
+        \item \lipsum[1][1-2]
+        \item \lipsum[2][1-2]
+        \item \lipsum[3][1-2]
+    \end{enumerate}
+    \paragraph{Style 1}
+    \begin{enumerate}[label=\alph*]
+        \item \lipsum[1][1-2]
+        \item \lipsum[2][1-2]
+        \item \lipsum[3][1-2]
+    \end{enumerate}
+    \paragraph{Style 2}
+    \begin{enumerate}[label=\Alph*]
+        \item \lipsum[1][1-2]
+        \item \lipsum[2][1-2]
+        \item \lipsum[3][1-2]
+    \end{enumerate}
+    \paragraph{Style 3}
+    \begin{enumerate}[label=\arabic*]
+        \item \lipsum[1][1-2]
+        \item \lipsum[2][1-2]
+        \item \lipsum[3][1-2]
+    \end{enumerate}
+    \paragraph{Style 4}
+    \begin{enumerate}[label=\Roman*]
+        \item \lipsum[1][1-2]
+        \item \lipsum[2][1-2]
+        \item \lipsum[3][1-2]
+    \end{enumerate}
+    \paragraph{Style 5}
+    \begin{enumerate}[label=\roman*]
+        \item \lipsum[1][1-2]
+        \item \lipsum[2][1-2]
+        \item \lipsum[3][1-2]
+    \end{enumerate}
+\end{document}

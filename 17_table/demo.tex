@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage{ctex}
+\usepackage{booktabs} % 用于创建漂亮的表格线
+\begin{document}
+\begin{table}[htbp]
+  \centering
+  \caption{示例表格}
+  \label{tab:example}
+  \begin{tabular}{ccc}
+    \toprule
+    列1 & 列2 & 列3 \\
+    \midrule
+    数据1 & 数据2 & 数据3 \\
+    数据4 & 数据5 & 数据6 \\
+    数据7 & 数据8 & 数据9 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+  \centering
+  \caption{Statistics of the experimented data}
+  \label{tab:example1}
+  \begin{tabular}{cccc}
+      \toprule
+      Dataset & User & Item  & Interaction \\
+      \midrule
+      ml-latest-small & 610 & 9742 & 100836 \\
+      \bottomrule
+  \end{tabular}
+  \end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Hyperparameters of the experimented models}
+\label{tab:hyperparameters}
+\begin{tabular}{cc}
+    \toprule
+    Hyperparameter & Value \\
+    \midrule
+    Learning Rate & 0.01 \\
+    Batch Size & 1024 \\
+    Embedding Dimension & 64 \\
+    Number of Layers & 3 \\
+    Number of Heads & 8 \\
+    Dropout Rate & 0.1 \\
+    Regularization Parameter & 0.00001 \\
+    Number of Epochs of edge ratings prediction & 100 \\
+    Number of Epochs of edge existence prediction & 20 \\
+    Number of Top-K & 10 \\
+    Number of Cross-Blocks & 1 \\
+    Number of Self-Blocks & 1 \\
+    \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Results of the experimented models}
+\label{tab:resultsss}
+\begin{tabular}{ccc}
+    \toprule
+    Model & RMSE & Recall10 \\
+    \midrule
+    PureMF & 1.2579 & 0.0590 \\
+    LightGCN & 1.5265 & 0.0492 \\
+    TransforMerF & 1.0034 & 0.0082 \\
+    MF with Bias & 1.1977 & 0.0869 \\
+    \bottomrule
+\end{tabular}
+\end{table}
+
+
+
+\end{document}

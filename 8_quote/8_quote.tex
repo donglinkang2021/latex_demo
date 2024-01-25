@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage{lipsum}
+
+\usepackage{fancyvrb}
+\usepackage{framed}
+\usepackage{xcolor}
+
+\definecolor{mygray}{RGB}{240,240,240}
+
+\renewenvironment{quote}{%
+  \def\FrameCommand{{\color{mygray}\vrule width 3pt}\hspace{10pt}}%
+  \MakeFramed {\advance\hsize-\width \FrameRestore}}%
+{\endMakeFramed}
+
+
+\begin{document}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus arcu vitae justo blandit, a volutpat nisi laoreet. Nullam eu rutrum enim.
+
+\begin{quote}
+    "The greatest glory in living lies not in never falling, but in rising every time we fall." \\
+    - Nelson Mandela
+\end{quote}
+
+Nulla facilisi. Nunc bibendum dolor in odio lobortis, id pharetra odio eleifend. 
+
+\end{document}

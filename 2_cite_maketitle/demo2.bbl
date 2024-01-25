@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{greenwade93}
+George~D. Greenwade.
+\newblock The {C}omprehensive {T}ex {A}rchive {N}etwork ({CTAN}).
+\newblock {\em TUGBoat}, 14(3):342--351, 1993.
+
+\bibitem{rombach2021highresolution}
+Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Björn
+  Ommer.
+\newblock High-resolution image synthesis with latent diffusion models, 2021.
+
+\bibitem{latex_wiki}
+维基百科.
+\newblock Latex --- 维基百科{,} 自由的百科全书, 2023.
+\newblock [Online; accessed 2304; 2023].
+
+\end{thebibliography}
